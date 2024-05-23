@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@tailwind base;
+
+@font-face {
+  font-family: 'Silk_Flower';
+  src: url('../public/Silk_Flower.otf') format('opentype');
+}
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+.font-silk-flower {
+  font-family: 'Silk_Flower', sans-serif;
+}
+
 .App {
   text-align: center;
 }

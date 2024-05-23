@@ -1,0 +1,32 @@
+.font-custom {
+    font-family: 'SlikFlower', sans-serif;
+  }
+  #X:hover .child:nth-child(1) {
+    scale: 1.15;
+    transition-duration: 500ms;
+    transform: translateX(25%);
+  }
+  
+  #X:hover .child:nth-child(2) {
+    scale: 1.02;
+    transition: all 1000ms;
+  }
+  
+  #X:hover .child:nth-child(3) {
+    scale: 1.15;
+    transition-duration: 500ms;
+    transform: translateX(-23%);
+  }
+
+  @media (max-width: 400px) {
+    #X:hover .child:nth-child(1) {
+      scale: 1.05;
+      transform: translateX(15%);
+    }
+  
+    #X:hover .child:nth-child(3) {
+      scale: 1.05;
+      transform: translateX(-10%);
+    }
+  }
+  

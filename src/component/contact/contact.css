@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#test{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+}
