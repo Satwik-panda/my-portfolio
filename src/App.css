@@ -5,6 +5,11 @@
   font-family: 'Silk_Flower';
   src: url('../public/Silk_Flower.otf') format('opentype');
 }
+@font-face {
+  font-family: 'Calfinedemo';
+  src: url('../public/Calfinedemo.otf') format('opentype');
+}
+
 
 @layer base {
   body {
@@ -14,6 +19,10 @@
 .font-silk-flower {
   font-family: 'Silk_Flower', sans-serif;
 }
+.font-calfine {
+  font-family: 'Calfinedemo', sans-serif;
+}
+
 
 .App {
   text-align: center;

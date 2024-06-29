@@ -12,7 +12,7 @@ const ImageSlider = ({ img = [] }) => {
 
   // Function to start the auto-slide
   const startSlide = () => {
-    intervalRef.current = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    intervalRef.current = setInterval(nextSlide, 3000); // Change slide every 5 seconds
   };
 
   // Function to stop the auto-slide

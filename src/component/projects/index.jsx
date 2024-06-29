@@ -24,7 +24,7 @@ function Projects() {
       if (headingRef.current) {
         const headingElement = headingRef.current;
         // Adjust the translate value based on the scroll progress
-        const translateValue = `translateX(${(1 - scrollProgress) * 100 - 60}%)`;
+        const translateValue = `translateX(${(1 - scrollProgress) * 100 - 70}%)`;
         headingElement.style.transform = translateValue;
       }
     };
@@ -34,21 +34,21 @@ function Projects() {
   }, []);
 
   return (
-    <div id="Project" className="flex h-auto relative flex-col mt-12 space-y-16 overflow-hidden">
+    <div id="Project" className="flex h-auto relative flex-col  overflow-clip">
       <h1
         ref={headingRef}
-        className="text-[5rem] md:text-[8rem] xl:text-[13rem] text-center absolute top-3 z-0 tracking-tight text-gray-200 font-bold 
+        className="text-[7rem] md:text-[10rem] lg:text-[13rem] text-center  tracking-tight text-gray-200 font-bold 
         transition-transform duration-100 ease-out font-['Helvetica'] "
       >
         PROJECTS
       </h1>
-      <div className="h-12"></div>
-      <hr class="my-4 w-full h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent opacity-100" />
+      <hr class="w-full h-2 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent opacity-100" />
+    
 
       {project_details.map((project, index) => (
-        <div key={project.id} className="relative z-10 flex flex-col space-y-8">
+        <div key={project.id} className="relative z-10 flex flex-col space-y-4">
           <h1
-            className="lg:text-4xl sm:text-2xl font-semibold flex items-center justify-center my-6 animate-fadeInDown"
+            className="text-2xl sm:text-3xl lg:text-4xl font-semibold flex items-center justify-center my-4 animate-fadeInDown"
           >
             {project.title}
           </h1>
@@ -60,7 +60,7 @@ function Projects() {
             <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
               <ImageSlider img={project.image} />
             </div>
-            <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
+            <div className="w-full md:w-1/2 p-4 flex justify-center items-center ">
               <Description
                 desc={project.details}
                 link={project.github}

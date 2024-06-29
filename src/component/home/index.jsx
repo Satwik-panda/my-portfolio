@@ -1,9 +1,24 @@
 import Design from "./design";
 import "../../App.css";
+import 'animate.css';
 
 function Home() {
+  // let intro_text=;
+  
+  const insert=(intro_text)=>{
+    let words=intro_text.split(" ");
+    return words.map((text, indx) => (
+      <span
+        key={indx}
+        className={"inline-block relative opacity-0 mr-2 translateY(20px) animate-fadeInUppp"}
+        style={{ animationDelay: `${indx * 240}ms` }}>
+        {text}{" "}
+      </span>
+    ));
+  }
+
   return (
-    <div className="h-auto w-full flex flex-col md:flex-row" id="Home">
+    <div className="h-auto w-full flex flex-col md:flex-row" id="Home" >
       <div
         id="photo-with-design"
         className="bg-[#81b69a] flex justify-center items-center py-8 md:w-1/2 "
@@ -13,23 +28,24 @@ function Home() {
       <div
         id="description"
         className="font-poppins bg-[#FBF1D7] px-8 py-2 flex flex-col justify-center text-[#81b69a] items-center
-        md:w-1/2 ">
-        <h2
+        md:w-1/2 "
+      >
+        <h2 id="twitch_animation"
           className="text-base sm:text-xl md:text-3xl xl:text-4xl 
-        px-8 w-full md:w-5/6 traking-[.75em] py-4 animate-fadeIn 
-        text-orange-500 font-bold text-center">
-          Hii I am Satwik
+        px-8 w-full md:w-5/6 traking-[.75em] py-4 text-orange-500 font-bold text-center">
+          {insert("Hii I am Satwik  😁")}
         </h2>
         <h2
           className="text-sm sm:text-base md:text-md  lg:text-lg  
-        px-8 w-full traking-[.75em] animate-fadeIn flex text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        px-8 w-full traking-[.75em] flex text-justify animate__animated animate__bounceInUp animate__delay-2s" >
+          {/* {insert()} */}
+          I am a Front End Developer and aspiring Full Stack Developer with a
+          passion for crafting creative web designs and engaging animations. I
+          thrive on solving complex problems and continuously upskill to perfect
+          my craft. My dedication to staying current with industry trends
+          ensures I deliver high-quality, visually captivating, and highly
+          functional web solutions. Explore my portfolio to see how my skills
+          and creativity come to life in my projects. 
         </h2>
       </div>
     </div>
