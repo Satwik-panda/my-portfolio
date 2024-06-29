@@ -12,7 +12,7 @@ function ContactMe(){
         }
       };
 
-    return <div class="font-[sans-serif] h-auto w-auto my-8 mx-8 relative bg-white rounded-3xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] overflow-hidden">
+    return <div id="Contact" class="font-[sans-serif] h-auto w-auto my-8 mx-8 relative bg-white rounded-3xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] overflow-hidden">
     <div class="absolute -top-6 -left-6 w-20 h-20 rounded-full bg-blue-400"></div>
     <div class="absolute -bottom-6 -left-0 w-24 h-20 rounded-tr-[40px] bg-teal-200"></div>
     <div class="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-blue-400"></div>
