@@ -9,10 +9,6 @@
   font-family: 'Calfinedemo';
   src: url('../public/Calfinedemo.otf') format('opentype');
 }
-@font-face {
-  font-family: 'meshed';
-  src: url('../public/Meshed.otf') format('opentype');
-}
 
 
 @layer base {
@@ -25,9 +21,6 @@
 }
 .font-calfine {
   font-family: 'Calfinedemo', sans-serif;
-}
-.font-meshed {
-  font-family: 'meshed', sans-serif;
 }
 
 
