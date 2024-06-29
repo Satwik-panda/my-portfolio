@@ -23,16 +23,11 @@ function Home() {
   return (
     <div className="h-auto w-full flex flex-col md:flex-row relative pb-8" id="Home">
       <div className="absolute inset-0 bg-[#81b69a] z-[-10]"></div>
-      <div
-        id="photo-with-design"
-        className="bg-[#81b69a] flex justify-center items-center py-8 md:w-1/2"
-      >
-        <Design />{" "}
-      </div>
+      
       <div
         id="description"
-        className="font-poppins rounded-l-[10rem] bg-[#FBF1D7] px-8 py-2 flex flex-col justify-center text-[#81b69a] items-center
-        md:w-1/2 "
+        className="font-poppins rounded-r-[10rem] bg-[#FBF1D7] pr-[5rem] md:pr-8 pl-8 py-2  md:w-1/2
+        flex flex-col justify-center text-[#81b69a] items-center  order-2 md:order-1"
       >
         <h2
           id="twitch_animation"
@@ -53,6 +48,12 @@ function Home() {
           captivating, and highly functional web solutions. Explore my portfolio
           to see how my skills and creativity come to life in my projects.
         </h2>
+      </div>
+      <div
+        id="photo-with-design"
+        className="bg-[#81b69a] flex justify-center items-center py-8 md:w-1/2 order-1 md:order-2"
+      >
+        <Design />{" "}
       </div>
     </div>
   );
