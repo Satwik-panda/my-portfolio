@@ -26,7 +26,7 @@ function Home() {
       
       <div
         id="description"
-        className="font-poppins rounded-r-[10rem] bg-[#FBF1D7] pr-[5rem] md:pr-8 pl-8 py-2  md:w-1/2
+        className="font-poppins rounded-r-full bg-[#FBF1D7] pr-[5rem] md:pr-8 pl-8 py-2  md:w-1/2
         flex flex-col justify-center text-[#81b69a] items-center  order-2 md:order-1"
       >
         <h2

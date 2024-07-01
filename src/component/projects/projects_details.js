@@ -1,17 +1,17 @@
 const project_details = [
     {
         id:1,
-        title:"News app",
+        title:"FlashFeed",
         image: ["/news-1.png","/news-2.png","/news-3.png","/news-4.png","/news-5.png","/news-6.png"],
-        details: "The ABC News web application is a modern news portal featuring dark mode, built with React and Tailwind CSS. It utilizes hooks like useReducer, useContext, and react-router-dom for efficient state management and navigation. Axios is used for real-time news fetching, allowing users to search and sort articles by categories and country. The app provides a responsive, customizable news reading experience with seamless theme switching and dynamic content updates.",
-        github: "http://takemesomewhere.com"
+        details: "The FlashFeed web application is a modern news portal featuring dark mode, built with React and Tailwind CSS. It utilizes hooks like useReducer, useContext, and react-router-dom for efficient state management and navigation. Axios is used for real-time news fetching, allowing users to search and sort articles by categories and country. The app provides a responsive, customizable news reading experience with seamless theme switching and dynamic content updates.",
+        github: "https://github.com/Satwik-panda/FlashFeed"
     },
     {
         id:2,
         title: "Food Receipe website",
         image: ["/fr1.png","/fr2.png","/fr3.png"],
         details: "This website is build using react and tailwind css. It has a responsive design and its multi-paged. it has a feature to add receipes to favorites list and uses hooks both custom and predefined by react to function properly. It store data to local storage so that data saved to favorite page doesn't get lost. Another feature is recently viewed receipes which is displayed on home page when nothing is searched in particular.",
-        github: "www.google.com"
+        github: "https://github.com/Satwik-panda/Cooking-Recipies"
     },
     {
         id:3,
