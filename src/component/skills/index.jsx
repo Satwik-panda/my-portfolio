@@ -34,6 +34,12 @@ function Skills() {
           </li>
           <li>
             <img
+              src="./flask.png"
+              className="w-[92px] h-[50px] md:w-[175px] md:h-[95px]"
+            />
+          </li>
+          <li>
+            <img
               src="./tailwind.png"
               className="w-[150px] h-[20px] md:w-[300px] md:h-[40px]"              
             />
@@ -42,6 +48,12 @@ function Skills() {
             <img
               src="./react.png" 
               className="mx-5 w-[105px] h-[35px] md:w-[210px] md:h-[70px]"              
+            />
+          </li>
+          <li>
+            <img
+              src="./mongo.png" 
+              className="mr-2 w-[105px] h-[25px] md:w-[210px] md:h-[50px]"              
             />
           </li>
           <li>
@@ -56,6 +68,7 @@ function Skills() {
               className="w-[175px] h-[70px] md:w-[350px] md:h-[140px]"
             />
           </li>
+          
         </ul>
         <ul class="brands-wrapper">
           
@@ -79,6 +92,12 @@ function Skills() {
           </li>
           <li>
             <img
+              src="./flask.png"
+              className="w-[92px] h-[50px] md:w-[175px] md:h-[95px]"
+            />
+          </li>
+          <li>
+            <img
               src="./tailwind.png"
               className="w-[150px] h-[20px] md:w-[300px] md:h-[40px]"              
             />
@@ -87,6 +106,12 @@ function Skills() {
             <img
               src="./react.png" 
               className="mx-5 w-[105px] h-[35px] md:w-[210px] md:h-[70px]"              
+            />
+          </li>
+          <li>
+            <img
+              src="./mongo.png" 
+              className="mr-2 w-[105px] h-[25px] md:w-[210px] md:h-[50px]"              
             />
           </li>
           <li>
@@ -101,10 +126,12 @@ function Skills() {
               className="w-[175px] h-[70px] md:w-[350px] md:h-[140px]"
             />
           </li>
+          
         </ul>
+        
        
       </div>
-      <hr class="w-full h-2 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent opacity-100" />
+      <hr class="w-full h-1 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent opacity-100" />
     </>
   );
 }

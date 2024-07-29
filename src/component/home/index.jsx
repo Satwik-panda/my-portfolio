@@ -40,13 +40,7 @@ function Home() {
           className="text-sm sm:text-base md:text-md  lg:text-lg  
         px-8 w-full traking-[.75em] flex text-justify animate__animated animate__bounceInUp animate__delay-2s"
         >
-          {/* {insert()} */}I am a Front End Developer and aspiring Full Stack
-          Developer with a passion for crafting creative web designs and
-          engaging animations. I thrive on solving complex problems and
-          continuously upskill to perfect my craft. My dedication to staying
-          current with industry trends ensures I deliver high-quality, visually
-          captivating, and highly functional web solutions. Explore my portfolio
-          to see how my skills and creativity come to life in my projects.
+          I am a Full Stack Developer with a passion for crafting creative web designs and engaging animations. I thrive on solving complex problems and continuously upskill to perfect my craft. My dedication to staying current with industry trends ensures I deliver high-quality, visually captivating, and highly functional web solutions. Explore my portfolio to see how my skills and creativity come to life in my projects.
         </h2>
       </div>
       <div

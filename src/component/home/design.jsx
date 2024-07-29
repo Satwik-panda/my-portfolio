@@ -17,7 +17,7 @@ function Design(){
     return <div className="font-silk-flower w-full relative flex justify-center transition-all duration-500 " id="X">
     <h1 className="child text-[#FBF1D7] text-5xl sm:text-6xl xl:text-8xl absolute z-0 left-2 min-[400px]:left-5 -top-4 md:-top-6
     transition-all duration-500 animate-slideDownFade">
-      FRONTEND
+      FULL STACK
     </h1>
 
     <div className="child w-full h-[30vh] md:h-[60vh] z-1 relative flex justify-center items-center">

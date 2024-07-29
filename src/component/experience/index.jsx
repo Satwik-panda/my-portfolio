@@ -47,24 +47,24 @@ function Experience() {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-gray-900">
-              Frontend Developer at TCS
+              Full Stack Developer at TCS
             </h3>
             <time className="block mb-2 font-normal leading-none text-gray-400 dark:text-gray-500">
               2022 - Present
             </time>
-            <p className="mb-4 font-normal text-gray-500 dark:text-gray-400">
+            <p className="mb-4 font-normal text-gray-700 ">
               <span className="block">My Responsibilities were:</span>
               <span className="block">
-                1. Spearheaded the development of numerous innovative modules to enhance project functionality, including the creation of a dynamic accordion menu component. This versatile component allowed users to select various options and seamlessly submit data to the backend for processing, significantly improving user interaction and data management.
+                1. Spearheaded the development of an admin page utilizing Flask and MongoDB for the backend and vanilla JavaScript and jQuery for the frontend. This initiative streamlined user account management, reducing administrative overhead by 30%. Additionally, I implemented an interactive bar graph feature using the Chart.js library, leveraging advanced visualization techniques to facilitate data visualization and enable informed decision-making for administrators.
               </span>
               <span className="block">
-                2. Utilized the Chart.js library to design and implement an interactive bar graph feature for the admin page. Leveraging advanced visualization techniques, the bar graph provided administrators with valuable insights and data visualization capabilities to make informed decisions and track project performance effectively.
+                2. Developed a dynamic permission management system using Jinja templates following an incident where the accidental restart of all production servers occurred. This system significantly enhanced disaster management protocols and reduced production errors by 80%, ensuring a more secure and reliable operational environment.
               </span>
               <span className="block">
                 3. Enhanced existing modules with modern UI enhancements, including animations and transitions, to elevate the user experience.
               </span>
               <span className="block">
-                4. Designed specialized components like a copy button for seamless data transfer and a delete button with dynamic animations.
+                4. Designed and developed a robust access management system for server operations, employing Python multithreading to ensure optimal performance and reliability. This system provided seamless control over server operations, including shutdowns and restarts, thereby enhancing overall system stability and security.
               </span>
               <span className="block">
                 5. Played a pivotal role in refactoring frontend codebase across multiple modules, optimizing code structure and improving maintainability. Implemented best practices and coding standards to enhance scalability, performance, and code readability, resulting in a more robust and efficient application architecture.
@@ -83,7 +83,7 @@ function Experience() {
             <time className="block mb-2 font-normal leading-none text-gray-400 dark:text-gray-500">
               2018 - 2022
             </time>
-            <p className="font-normal text-gray-500 dark:text-gray-400">
+            <p className="font-normal text-gray-700">
               Bachelor of Technology in EEE, but my curiosity and interest pulled me towards coding.
             </p>
           </li>

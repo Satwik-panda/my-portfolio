@@ -42,7 +42,7 @@ function Projects() {
       >
         PROJECTS
       </h1>
-      <hr class="w-full h-2 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent opacity-100" />
+      <hr class="w-full h-1 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent opacity-100" />
     
 
       {project_details.map((project, index) => (
