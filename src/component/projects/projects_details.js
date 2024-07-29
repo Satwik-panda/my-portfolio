@@ -14,14 +14,14 @@ const project_details = [
     },
     {
         id:3,
-        title: "Food Receipe website",
+        title: "FlavorVerse",
         image: ["/fr1.png","/fr2.png","/fr3.png"],
         details: "This website is build using react and tailwind css. It has a responsive design and its multi-paged. it has a feature to add receipes to favorites list and uses hooks both custom and predefined by react to function properly. It store data to local storage so that data saved to favorite page doesn't get lost. Another feature is recently viewed receipes which is displayed on home page when nothing is searched in particular.",
         github: "https://github.com/Satwik-panda/Cooking-Recipies"
     },
     {
         id:4,
-        title: "Weather Forecaste", 
+        title: "Mausam Insights", 
         image: ["/wth1.png","/wth2.png","/wth3.png"],
         details: "This project is build using Bootstrap and vanilla JS. It uses API to fetch the current weather details as well as forecast for future 5 days. It has a feature to autocomplete search i.e. it suggests all possible locations starting with the entered value. It also shows other details like humidity, wind-speed, max and min temp, etc. It has a icon feature that changes according to weather outside.",
         github: "https://github.com/Satwik-panda/Weather"

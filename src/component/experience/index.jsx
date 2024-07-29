@@ -30,7 +30,7 @@ function Experience() {
       <h1
         ref={headingRef}
         className="whitespace-nowrap text-[7rem] md:text-[10rem] lg:text-[13rem] text-center 
-        absolute top-3 z-0 tracking-tight text-gray-200 font-bold transition-transform duration-100 
+        absolute top-3 z-0 tracking-tight text-gray-400 font-bold transition-transform duration-100 
         ease-out font-['Helvetica']"
       >
         EXPERIENCE

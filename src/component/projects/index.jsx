@@ -37,7 +37,7 @@ function Projects() {
     <div id="Project" className="flex h-auto relative flex-col  overflow-clip">
       <h1
         ref={headingRef}
-        className="text-[7rem] md:text-[10rem] lg:text-[13rem] text-center  tracking-tight text-gray-200 font-bold 
+        className="text-[7rem] md:text-[10rem] lg:text-[13rem] text-center  tracking-tight text-gray-400 font-bold 
         transition-transform duration-100 ease-out font-['Helvetica'] "
       >
         PROJECTS
