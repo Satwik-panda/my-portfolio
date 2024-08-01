@@ -4,7 +4,7 @@ const project_details = [
         title:"Quizify AI",
         image: ["/quizify1.png","/quizify2.png","/quizify8.png","/quizify3.png","/quizify7.png","/quizify4.png","/quizify5.png","/quizify6.png",],
         details: "Quizify is an Ai powerd tool for generating quiz on any topic of any difficulty as per user's choice. It is build using openAI api which generates quiz for the user. Stack used for developing this project tailwind, react, mongodb and flask. It has feature to create accound so that any quiz given gets stored in DB, which can later be reviewed and analyzed. Its deployed using mongodb atlas for the database and frontend and backend is deployed in render.",
-        github: "https://quizify-ai-tau.vercel.app/"
+        github: "https://github.com/Satwik-panda/quizify-ai"
     },{
         id:2,
         title:"FlashFeed",
